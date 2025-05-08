@@ -1,0 +1,10 @@
+def Sum(a,b):
+	if a ==0:
+		return 0
+	else:
+		print a
+		return b + Sum(a-1,b)
+		print b         
+
+
+print Sum(7,5)
